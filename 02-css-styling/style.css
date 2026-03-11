@@ -1,0 +1,52 @@
+/* General body styles - sets font, background and alignment */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Main heading style */
+h1 {
+  color: darkblue;
+  font-size: 36px;
+}
+
+/* Sub heading style */
+h2 {
+  color: #333;
+  font-size: 24px;
+}
+
+/* Paragraph text size */
+p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Card component - adds a white box with shadow */
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styles */
+button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: darkblue;
+}
